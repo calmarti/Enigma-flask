@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width-device-width', initial-scale='1.0'>
+        <title>Simulador de Enigma</title>
+        <link rel='stylesheet' href='/static/pico.css'>
+
+        <style>
+            .error{
+                color:red;
+                font-weight:bold;
+            }
+        </style>
+   </head>
+
+    <body>
+        <h2>Simulador de Enigma</h2> 
+        {% if get_flashed_messages() %} <!--recupera mensajes-->
+        {% for message in get_flashed_messages() %}
+        <p class='error'>{{ message }}</p> 
+        {% endfor %} 
+        {% endif %}  
+       
+
+        <div class='container'>
+            <form action='\' method='post'> <!-- clase container de pico.css-->
+            {{ formulario.hidden_tag() }} <!-- campo oculto con el token de protección CSRF-->
+            {{ formulario.texto_entrada.label }} <!-- pone la tag label-->
+            {{ formulario.texto_entrada(placeholder='Introduce el texto a codificar') }} <!--pone la tag input con todos sus atributos html-->
+
+            {% for error in formulario.texto_entrada.errors %} <!-- ¿este bloque sirve para algo?-->
+            <p class='error'> {{ error }} </p>
+            {% endfor %} 
+
+            {{ formulario.texto_salida.label }}
+            {{ formulario.texto_salida(disabled=True)}}
+           
+             <div class='grid'>
+                 <label for='rotor1'>
+                    {{ formulario.rotor1.label }}
+                    {{ formulario.rotor1()}}
+                 </label>
+                 <label for='rotor1_ini'>
+                    {{ formulario.rotor1_ini.label }}
+                    {{ formulario.rotor1_ini()}}
+                 </label>
+             </div> <!-- clase grid de pico.css-->  
+             {{ formulario.reflector.label }}
+             {{ formulario.reflector()}}      
+              
+             {{ formulario.aceptar() }}
+
+        </form>
+    </div>
+        
+        
+    </body>
+</html>
+
+
