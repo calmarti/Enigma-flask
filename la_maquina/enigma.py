@@ -2,8 +2,12 @@
 #FALTA:
 #DOBLE PASO
 #PLUGBOARD
-#RINGS
-
+#RING SETTINGS
+#ACTIVAR LA DECODIFICACION SOLO SI SE ESCOGE LA OPCION 'ENIGMA I' DEL MENÚ
+#DEFINIR CONFIGURACIÓN DE MODELOS
+#HACER QUE REGRESE A DONDE ESTABA AL REFRESCAR (QUE NO SALTE)
+#PROBLEMA OCASIONAL AL REFRESCAR DESCUADRA EVERYTHING!
+#HOSPEDAR EN GITHUB
 
 #abecedario
 abecedario = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -13,10 +17,10 @@ juego = {'I'  : ['EKMFLGDQVZNTOWYHXUSPAIBRCJ', 'Q'],
             'II' : ['AJDKSIRUXBLHWTMCQGZNPYFVOE' , 'E'],
             'III': ['BDFHJLCPRTXVZNYEIWGAKMUSQO' , 'V'],
             'IV' : ['ESOVPZJAYQUIRHXLNFTGKDCMWB' , 'J'],
-            'V'  :  ['VZBRGITYUPSDNHLXAWMJQOFECK', 'Z'],
-            'VI' : ['JPGVOUMFYQBENHZRDKASXLICTW', 'ZM'],
-            'VII': ['NZJHGRCXMYSWBOUFAIVLPEKQDT', 'ZM'],
-            'VIII': ['FKQHTLXOCBJSPDZRAMEWNIUYGV', 'ZM']
+            'V'  :  ['VZBRGITYUPSDNHLXAWMJQOFECK', 'Z']
+            #'VI' : ['JPGVOUMFYQBENHZRDKASXLICTW', 'ZM'],
+            #'VII': ['NZJHGRCXMYSWBOUFAIVLPEKQDT', 'ZM'],
+            #'VIII': ['FKQHTLXOCBJSPDZRAMEWNIUYGV', 'ZM']
             }
 
 #juego de reflectores (UKW):
@@ -105,7 +109,7 @@ class Enigma():
             for rotor in self.rotores:
                 rotor.avanza()
                 trigger = rotor.paso()               
-                print(trigger)    
+                #print(trigger)    
                    
                 indice = rotor.codifica(indice)     #codifica una letra de la cadena (viaje de ida)
            
@@ -115,7 +119,7 @@ class Enigma():
                 indice = rotor.decodifica(indice)   #decodifica una letra de la cadena (viaje de vuelta)
 
             cadenaCodificada += self.abecedario[indice] 
-        print(cadenaCodificada)
+        #print(cadenaCodificada)
         return cadenaCodificada  
 
     @property        #el setter permite cambiar la posicion inicial de Enigma (y de cada rotor) desde afuera
