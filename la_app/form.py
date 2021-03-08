@@ -4,12 +4,15 @@ from wtforms.validators import DataRequired, ValidationError
 from la_maquina.enigma import abecedario, juego, UKW
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 class EnigmaForm(FlaskForm):
     texto_entrada  = TextAreaField('Mensaje', validators = [DataRequired('Campo requerido')])
 =======
+=======
+>>>>>>> 3bd4387b7509d0e00930b9aafcc101007d1dc42a
 def isAlfa(formulario, campo): #crea un custom validator de flask
     for caracter in campo.data:
         if caracter not in abecedario:
@@ -18,6 +21,9 @@ def isAlfa(formulario, campo): #crea un custom validator de flask
 
 class EnigmaForm(FlaskForm):
     texto_entrada  = TextAreaField('Mensaje', validators = [DataRequired('Campo requerido'), isAlfa])
+<<<<<<< HEAD
+>>>>>>> 3bd4387b7509d0e00930b9aafcc101007d1dc42a
+=======
 >>>>>>> 3bd4387b7509d0e00930b9aafcc101007d1dc42a
     texto_salida = TextAreaField('Mensaje encriptado')
     rotor1 = SelectField('Rotor 1', choices = [*juego], validators = [DataRequired('Campo requerido')])
