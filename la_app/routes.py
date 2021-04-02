@@ -34,16 +34,15 @@ def index():
             default_reflector.UKW = UKW[form.reflector.data]
 
             enigma.ini = form.rotor1_ini.data + form.rotor2_ini.data +form.rotor3_ini.data 
+           
             try:
-<<<<<<< HEAD
-<<<<<<< HEAD
+
                 output = enigma.codificaCadena(form.texto_entrada.data.upper())
-=======
+
                 output = enigma.codificaCadena(form.texto_entrada.data)
->>>>>>> 3bd4387b7509d0e00930b9aafcc101007d1dc42a
-=======
-                output = enigma.codificaCadena(form.texto_entrada.data)
->>>>>>> 3bd4387b7509d0e00930b9aafcc101007d1dc42a
+
+                #output = enigma.codificaCadena(form.texto_entrada.data)
+
             except ValueError as e:
                 print('Error al codificar', e)
                 flash('Texto de entrada inválido') 

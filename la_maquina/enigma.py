@@ -1,14 +1,9 @@
 #VERSION QUE REPRODUCE LOS RESULTADOS DE DOS SIMULADORES EXISTENTES ('enigma08.py)
 #FALTA:
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 #DECODIFICAR EN CADENAS DE 4 CARACTERES Y NO PERMITIR ESPACIOS (O CODIFICARLOS CON X)
 #HACER REDIRECT AL REFRESCAR
 #PERMITIR EL REDIRECT CON POST REQUEST CON EL CAMPO ENTRADA VACÍO (NO LO HACE)
-=======
->>>>>>> 3bd4387b7509d0e00930b9aafcc101007d1dc42a
-=======
->>>>>>> 3bd4387b7509d0e00930b9aafcc101007d1dc42a
 #DOBLE PASO
 #PLUGBOARD
 #RING SETTINGS
@@ -141,13 +136,5 @@ class Enigma():
         for i, rotor in enumerate(self.rotores):        
             rotor._ini = self.abecedario.index(self._ini[i])
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> 3bd4387b7509d0e00930b9aafcc101007d1dc42a
-=======
->>>>>>> 3bd4387b7509d0e00930b9aafcc101007d1dc42a
 
     
