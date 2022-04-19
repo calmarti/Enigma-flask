@@ -3,7 +3,7 @@
 ### Construída con Python, Flask y CSS
 
 ### Versión actual
-Simulador de la máquina Enignma de comunicación encriptada, empleada por la Wermacht entre 1937 y 1945, 
+Simulador de la máquina Enigma de comunicación encriptada, empleada por la Wermacht entre 1937 y 1945, 
 así como durante la guerra civil española. 
 
 ### Modelo implementado
