@@ -19,9 +19,9 @@ así como durante la guerra civil española.
 
 ### Encriptar un mensaje
 
-- Escribir el mensaje sin espacios entre palabras
 - Seleccionar una configuración de Enigma (combinación de 3 rotores y reflector)
 - Seleccionar la posición inicial de cada rotor
+- Escribir el mensaje sin espacios entre palabras
 
 ---
 
@@ -29,6 +29,7 @@ así como durante la guerra civil española.
 
 - Seleccionar la misma configuración usada al encriptar
 - Seleccionar las mismas posiciones iniciales de los rotores usadas al encriptar
+- Escribir el mensaje 
 
 ### Demo
 Para una demo preliminar: 
