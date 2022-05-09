@@ -13,7 +13,7 @@ así como durante la guerra civil española.
 
 ### Versión actual 
 - La aplicación simula el modelo Enigma I (Heer) con 3 rotores y un reflector
-- La combinación de rotores y reflectos puede elegirse de un total de 5 rotores y 2 reflectores históricos 
+- La combinación de rotores y reflectores puede elegirse de un total de 5 rotores y 2 reflectores históricos 
 
 ---
 
