@@ -1,4 +1,4 @@
-# simulador de la máquina Enigma  
+# Simulador de la máquina Enigma  
 
 ---
 
