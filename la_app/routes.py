@@ -36,17 +36,15 @@ def index():
             enigma.ini = form.rotor1_ini.data + form.rotor2_ini.data +form.rotor3_ini.data 
            
             try:
-
-                output = enigma.codificaCadena(form.texto_entrada.data.upper())
-
+                #form.texto_entrada.data = form.texto_entrada.data.upper()  ESTO NO RESUELVE EL PROBLEMA PUES VALIDA CARACTER A CARACTER CON 'ISALPHA'    
                 output = enigma.codificaCadena(form.texto_entrada.data)
-
-                #output = enigma.codificaCadena(form.texto_entrada.data)
-
+              
+   
             except ValueError as e:
                 print('Error al codificar', e)
                 flash('Texto de entrada inválido') 
                 output=''
+
 
             form.texto_salida.data = output
             #form.rotor1_ini.data = enigma.ini  

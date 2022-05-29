@@ -3,20 +3,18 @@ from wtforms import StringField, SubmitField, SelectField, TextAreaField
 from wtforms.validators import DataRequired, ValidationError
 from la_maquina.enigma import abecedario, juego, UKW
 
+#CREAR FUNCIÓN PARA VALIDAR QUE EL MENSAJE NO CONTIENE ESPACIOS O BIEN HACERLE UN TRIM AL VALOR UNA VEZ ENVIADO
+#USAR LIBRERIA DE CSS PARA MEJORAR LA UI, EN PLAN UNA UI MÁS TIPO MÁQUINA
 
 
-
-class EnigmaForm(FlaskForm):
-    texto_entrada  = TextAreaField('Mensaje', validators = [DataRequired('Campo requerido')])
-
-def isAlfa(formulario, campo): #crea un custom validator de flask
-    for caracter in campo.data:
+def isValidAlphabet(formulario, campo): #crea un custom validator de flask
+    for caracter in campo.data.upper():
         if caracter not in abecedario:
-            raise ValidationError ("Texto con caracteres inválidos")
+            raise ValidationError ("El mensaje contiene caracteres que no pertenecen al alfabeto")
 
 
 class EnigmaForm(FlaskForm):
-    texto_entrada  = TextAreaField('Mensaje', validators = [DataRequired('Campo requerido'), isAlfa])
+    texto_entrada  = TextAreaField('Mensaje', validators = [DataRequired('Campo requerido'), isValidAlphabet])
 
     texto_salida = TextAreaField('Mensaje encriptado')
     rotor1 = SelectField('Rotor 1', choices = [*juego], validators = [DataRequired('Campo requerido')])

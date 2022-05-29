@@ -7,11 +7,10 @@
 #DOBLE PASO
 #PLUGBOARD
 #RING SETTINGS
-#ACTIVAR LA DECODIFICACION SOLO SI SE ESCOGE LA OPCION 'ENIGMA I' DEL MENÚ
 #DEFINIR CONFIGURACIÓN DE MODELOS
 #HACER QUE REGRESE A DONDE ESTABA AL REFRESCAR (QUE NO SALTE)
 #PROBLEMA OCASIONAL AL REFRESCAR DESCUADRA EVERYTHING!
-#HOSPEDAR EN GITHUB
+
 
 #abecedario
 abecedario = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -103,6 +102,7 @@ class Enigma():
 
         
     def codificaCadena(self, cadena):  
+        cadena = cadena.upper()
         cadenaCodificada = ''
         global trigger        #trigger cambia a True en el paso inmediatamente siguiente a cumplir la vuelta (método 'paso' de la clase Rotor)
         trigger = False
@@ -125,6 +125,8 @@ class Enigma():
             cadenaCodificada += self.abecedario[indice] 
         #print(cadenaCodificada)
         return cadenaCodificada  
+
+
 
     @property        #el setter permite cambiar la posicion inicial de Enigma (y de cada rotor) desde afuera
     def ini(self):
