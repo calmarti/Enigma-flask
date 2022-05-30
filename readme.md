@@ -6,7 +6,7 @@
 
 ---
 
-Simulador de la máquina Enigma de comunicación encriptada. Enigma fue empleada por el Ejército (Wehrmatch) y la armada alemana entre 1937 y 1945 para cifrar sus comunicaciones
+Simulador de la máquina Enigma de comunicación encriptada. Empleada por el Ejército (Wehrmatch) y la armada alemana entre 1930 y 1945.
 
 Su mecanismo electromecánico se basa en la técnica de cifrado "César"
 
