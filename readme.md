@@ -21,17 +21,19 @@ https://www.youtube.com/watch?v=L8N829w3je4
 
 ### Versión implementada 
 
-- La aplicación simula el modelo Enigma I con 3 rotores y un reflector
+- La aplicación simula el modelo Enigma I con 3 rotores y un reflector fijo
 - La combinación de rotores, así como el reflector, pueden elegirse de un total de 5 rotores y 2 reflectores históricos:
 
 ```sh
-Rotores disponible:
+
+Rotores disponibles:
 
 I: ABCDEFGHIJKLMNOPQRSTUVWXYZ - EKMFLGDQVZNTOWYHXUSPAIBRCJ  
 II: ABCDEFGHIJKLMNOPQRSTUVWXYZ  - AJDKSIRUXBLHWTMCQGZNPYFVOE
 III: ABCDEFGHIJKLMNOPQRSTUVWXYZ  - BDFHJLCPRTXVZNYEIWGAKMUSQO
 IV: ABCDEFGHIJKLMNOPQRSTUVWXYZ  - ESOVPZJAYQUIRHXLNFTGKDCMWB
 V: ABCDEFGHIJKLMNOPQRSTUVWXYZ  - VZBRGITYUPSDNHLXAWMJQOFECK
+
 
 Reflectores disponibles:
 
