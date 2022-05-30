@@ -17,7 +17,7 @@ así como durante la guerra civil española.
 
 ### Alfabeto
 
-- La Enigma usaba el alfabeto latino de 26 caracteres usados en el idioma alemán sin el caracter especial **Eszett** o ß 
+- La Enigma usaba el alfabeto latino de 26 caracteres empleados en el idioma alemán sin el caracter especial **Eszett** o ß 
 
 ---
 
