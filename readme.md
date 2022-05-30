@@ -15,6 +15,10 @@ así como durante la guerra civil española.
 - La aplicación simula el modelo Enigma I (Heer) con 3 rotores y un reflector
 - La combinación de rotores y reflectores puede elegirse de un total de 5 rotores y 2 reflectores históricos 
 
+### Alfabeto
+
+- La enigma usaba el alfabeto latino de 26 caracteres usados en el idioma alemán sin el caracter especial **Eszett** o ß 
+
 ---
 
 ### Encriptar un mensaje
