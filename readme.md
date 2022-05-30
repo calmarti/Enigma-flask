@@ -51,7 +51,7 @@ C: FVPJIAOYEDRZXWGCTKUQSBNMHL
 
 - Seleccionar una configuración de Enigma (combinación de 3 rotores y reflector)
 - Seleccionar la posición inicial (letra del alfabeto) de cada rotor
-- Escribir el mensaje usando solo las 26 letras del alfabeto y sin espacios entre palabras 
+- Escribir el mensaje usando únicamente las 26 letras del alfabeto y sin espacios entre palabras 
 
 ---
 
