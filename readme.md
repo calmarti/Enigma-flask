@@ -49,17 +49,17 @@ C: FVPJIAOYEDRZXWGCTKUQSBNMHL
 
 ### Encriptar un mensaje
 
-- Seleccionar una configuración de Enigma (combinación de 3 rotores y reflector)
-- Seleccionar la posición inicial (letra del alfabeto) de cada rotor
-- Escribir el mensaje usando únicamente las 26 letras del alfabeto y sin espacios entre palabras 
+- Selecciona una configuración de Enigma (combinación de 3 rotores y reflector)
+- Selecciona la posición inicial (letra del alfabeto) de cada rotor
+- Escribe el mensaje usando únicamente las 26 letras del alfabeto y sin espacios entre palabras 
 
 ---
 
 ### Desencriptar un mensaje
 
-- Seleccionar la misma configuración usada al encriptar
-- Seleccionar las mismas posiciones iniciales de los rotores usadas al encriptar
-- Escribir el mensaje encriptado
+- Selecciona la misma configuración usada al encriptar
+- Selecciona las mismas posiciones iniciales de los rotores usadas al encriptar
+- Escribe el mensaje encriptado
 
 ### Ejemplo
 
@@ -72,7 +72,7 @@ Mensaje encriptado: "OXODLZPTRBP"
 ```
 
 ### Live Demo
-Prueba la enigma aquí:  
+Prueba la Enigma aquí:  
 
 https://b4r4th30nspa.pythonanywhere.com/
 
