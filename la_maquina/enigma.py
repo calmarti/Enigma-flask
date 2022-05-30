@@ -102,6 +102,9 @@ class Enigma():
 
         
     def codificaCadena(self, cadena):  
+        """ while " " in cadena:
+            cadena.remove(" ") """
+
         cadena = cadena.upper()
         cadenaCodificada = ''
         global trigger        #trigger cambia a True en el paso inmediatamente siguiente a cumplir la vuelta (método 'paso' de la clase Rotor)

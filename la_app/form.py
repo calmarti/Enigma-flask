@@ -1,3 +1,4 @@
+from xml.dom import ValidationErr
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, SelectField, TextAreaField
 from wtforms.validators import DataRequired, ValidationError
@@ -9,8 +10,11 @@ from la_maquina.enigma import abecedario, juego, UKW
 
 def isValidAlphabet(formulario, campo): #crea un custom validator de flask
     for caracter in campo.data.upper():
-        if caracter not in abecedario:
-            raise ValidationError ("El mensaje contiene caracteres que no pertenecen al alfabeto")
+        if caracter ==" ":
+            raise ValidationError("Escribe tu mensaje sin dejar espacios en blanco")
+        elif caracter not in abecedario:
+            raise ValidationError("El mensaje contiene caracteres que no pertenecen al alfabeto de Enigma")
+        
 
 
 class EnigmaForm(FlaskForm):
