@@ -6,8 +6,8 @@
 
 ---
 
-Simulador de la máquina Enigma de comunicación encriptada, empleada por la Wermacht entre 1937 y 1945, 
-así como durante la guerra civil española. 
+Simulador de la máquina Enigma de comunicación encriptada
+Enigma fue empleada por el Ejército y la Armada alemana entre 1937 y 1945 para cifrar sus comunicaciones 
 
 ---
 
