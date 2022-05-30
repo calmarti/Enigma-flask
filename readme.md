@@ -40,7 +40,7 @@ así como durante la guerra civil española.
 Configuración: Rotor 1 = I, Rotor 2 = II, Rotor 3 = III y reflector = B
 Posiciones iniciales de los rotores: 'A', 'A' y 'A'
 
-```sh```
+```sh
 Mensaje: "Gutenmorgen"
 Mensaje encriptado: "OXODLZPTRBP"
 ```
