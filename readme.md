@@ -24,8 +24,8 @@ así como durante la guerra civil española.
 ### Encriptar un mensaje
 
 - Seleccionar una configuración de Enigma (combinación de 3 rotores y reflector)
-- Seleccionar la posición inicial de cada rotor
-- Escribir el mensaje sin espacios entre palabras
+- Seleccionar la posición inicial (letra del alfabeto) de cada rotor
+- Escribir el mensaje usando solo las 26 letras del alfabeto y sin espacios entre palabras 
 
 ---
 
@@ -33,7 +33,17 @@ así como durante la guerra civil española.
 
 - Seleccionar la misma configuración usada al encriptar
 - Seleccionar las mismas posiciones iniciales de los rotores usadas al encriptar
-- Escribir el mensaje 
+- Escribir el mensaje encriptado
+
+### Ejemplo
+
+Configuración: Rotor 1 = I, Rotor 2 = II, Rotor 3 = III y reflector = B
+Posiciones iniciales de los rotores: 'A', 'A' y 'A'
+
+```sh```
+Mensaje: "Gutenmorgen"
+Mensaje encriptado: "OXODLZPTRBP"
+```
 
 ### Demo
 Para una demo preliminar: 
