@@ -6,7 +6,9 @@
 
 ---
 
-Simulador de la máquina Enigma de comunicación encriptada. Enigma fue empleada por el Ejército (Wehrmatch) y la armada alemana entre 1937 y 1945 para cifrar sus comunicaciones. 
+Simulador de la máquina Enigma de comunicación encriptada. Enigma fue empleada por el Ejército (Wehrmatch) y la armada alemana entre 1937 y 1945 para cifrar sus comunicaciones
+
+Su mecanismo electromecánico se basa en la técnica de cifrado "César"
 
 Para mayor información sobre Enigma: 
 
@@ -20,7 +22,17 @@ https://www.youtube.com/watch?v=L8N829w3je4
 ### Versión implementada 
 
 - La aplicación simula el modelo Enigma I con 3 rotores y un reflector
-- La combinación de rotores, así como el reflector, pueden elegirse de un total de 5 rotores y 2 reflectores históricos   
+- La combinación de rotores, así como el reflector, pueden elegirse de un total de 5 rotores y 2 reflectores históricos:
+
+```sh
+Rotores disponibles:
+
+I: ABCDEFGHIJKLMNOPQRSTUVWXYZ - EKMFLGDQVZNTOWYHXUSPAIBRCJ  
+II: ABCDEFGHIJKLMNOPQRSTUVWXYZ  - AJDKSIRUXBLHWTMCQGZNPYFVOE
+III: ABCDEFGHIJKLMNOPQRSTUVWXYZ  - BDFHJLCPRTXVZNYEIWGAKMUSQO
+IV: ABCDEFGHIJKLMNOPQRSTUVWXYZ  - ESOVPZJAYQUIRHXLNFTGKDCMWB
+V: ABCDEFGHIJKLMNOPQRSTUVWXYZ  - VZBRGITYUPSDNHLXAWMJQOFECK
+```
 
 ### Alfabeto
 
