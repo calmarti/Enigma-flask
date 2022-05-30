@@ -71,8 +71,8 @@ Mensaje: "GUTENMORGEN"
 Mensaje encriptado: "OXODLZPTRBP"
 ```
 
-### Demo
-Para una demo preliminar: 
+### Live Demo
+Prueba la enigma aquí:  
 
 https://b4r4th30nspa.pythonanywhere.com/
 
