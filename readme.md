@@ -49,7 +49,7 @@ C: FVPJIAOYEDRZXWGCTKUQSBNMHL
 
 ### Encriptar un mensaje
 
-- Selecciona una configuración de Enigma (combinación de 3 rotores y reflector)
+- Selecciona una configuración de Enigma (combinación de 3 rotores y un reflector)
 - Selecciona la posición inicial (letra del alfabeto) de cada rotor
 - Escribe el mensaje usando únicamente las 26 letras del alfabeto y sin espacios entre palabras 
 
@@ -57,8 +57,8 @@ C: FVPJIAOYEDRZXWGCTKUQSBNMHL
 
 ### Desencriptar un mensaje
 
-- Selecciona la misma configuración usada al encriptar
-- Selecciona las mismas posiciones iniciales de los rotores usadas al encriptar
+- Selecciona exactamente ***la misma*** configuración de rotores y reflector usada al encriptar el mensaje original
+- Selecciona ***las mismas posiciones iniciales*** de los rotores usadas al encriptar el mensaje original
 - Escribe el mensaje encriptado
 
 ### Ejemplo
