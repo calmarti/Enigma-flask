@@ -8,7 +8,7 @@
 
 Simulador de la máquina Enigma de comunicación encriptada. Empleada por el Ejército (Wehrmatch) y la armada alemana entre 1930 y 1945.
 
-Su mecanismo electromecánico se basa en la técnica de cifrado "César"
+Su mecanismo electromecánico se basa en el cifrado de "César"
 
 Para mayor información sobre Enigma: 
 
