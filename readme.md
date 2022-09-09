@@ -72,7 +72,7 @@ Mensaje encriptado: "OXODLZPTRBP"
 ```
 
 ### Online Demo
-Prueba la Enigma aquí:  
+Puedes probar la Enigma aquí:  
 
 https://b4r4th30nspa.pythonanywhere.com/
 
