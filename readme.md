@@ -75,9 +75,10 @@ Mensaje: "GUTENMORGEN"
 Mensaje encriptado: "OXODLZPTRBP"
 ```
 
+Restablecer la configuración (rotores, reflector y posiciones iniciales) con los valores del ejemplo. 
+
 **Desencriptar**
 
-Restablecer la configuración (rotores, reflector y posiciones iniciales) con los valores del ejemplo. 
 
 ```sh
 Mensaje encriptado: "OXODLZPTRBP"
