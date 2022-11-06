@@ -64,6 +64,7 @@ C: FVPJIAOYEDRZXWGCTKUQSBNMHL
 ### Ejemplo
 
 Configuración: Rotor 1 = I, Rotor 2 = II, Rotor 3 = III y reflector = B
+
 Posiciones iniciales de los rotores: 'A', 'A' y 'A'
 
 ```sh
