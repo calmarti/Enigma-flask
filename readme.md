@@ -61,6 +61,8 @@ C: FVPJIAOYEDRZXWGCTKUQSBNMHL
 - Selecciona ***las mismas posiciones iniciales*** de los rotores usadas al encriptar el mensaje original
 - Escribe el mensaje encriptado
 
+---
+
 ### Ejemplo
 
 Configuración: Rotor 1 = I, Rotor 2 = II, Rotor 3 = III y reflector = B
