@@ -69,10 +69,18 @@ Configuración: Rotor 1 = I, Rotor 2 = II, Rotor 3 = III y reflector = B
 
 Posiciones iniciales de los rotores: 'A', 'A' y 'A'
 
+**Encriptar**
 ```sh
 Mensaje: "GUTENMORGEN"
 Mensaje encriptado: "OXODLZPTRBP"
 ```
+
+**Desencriptar**
+```sh
+Mensaje encriptado: "OXODLZPTRBP"
+Mensaje: "GUTENMORGEN" 
+```
+
 
 ### Online Demo
 Puedes probar la Enigma aquí:  
