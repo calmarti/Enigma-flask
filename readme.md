@@ -86,7 +86,7 @@ Mensaje: "GUTENMORGEN"
 ```
 
 ### Online Demo
-Puedes probar la Enigma aquí:  
+Prueba la Enigma aquí:  
 
 https://b4r4th30nspa.pythonanywhere.com/
 
